@@ -10,7 +10,7 @@ def countdown(t):
             timer = '{:02d}:{:02d}'.format(mins, secs)
             f.write(timer + "\n")
             f.close()
-            print(timer)
+            #print(timer)
             time.sleep(1)
             t -= 1
 
